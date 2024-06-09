@@ -1,0 +1,344 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.desktop {
+    position: relative;  
+    width: 1440px;
+    height: 1024px;
+}
+.background-image {
+    position: absolute;
+    width: 1443px;
+    height: 1024px;
+    left: -3px;
+    top: 0px;
+    background: url('gunung1.jpg') no-repeat center center/cover;
+}
+
+header {
+        position: absolute;
+        width: 1440px;
+        height: 135px;
+        left: 0px;
+        top: 4px;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .navbar ul li a:hover{
+        border-bottom: 2px solid yellow;
+    }
+
+    .navbar ul li a:hover{
+        border-bottom: 2px solid yellow;
+    }
+    
+    .home {
+        color: #CF1F1F;
+        position: absolute;
+        left: 802px;
+        top: 33px;
+    }
+    
+    .about {
+        color: #EEEDED;
+        position: absolute;
+        left: 976px;
+        top: 34px;
+    }
+
+    .contact {
+        color: #CF1F1F;
+        position: absolute;
+        left: 1160px;
+        top: 32px;
+    }
+    
+
+    .profile-section {
+        position: absolute;
+        width: 442px;
+        height: 425px;
+        left: 600px;
+        top: 340px;
+    }
+    
+    .profile-pic {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        background: url('icha2.pnj') no-repeat center center/cover;
+    }
+    
+    .name {
+        height: 79px;
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 70px;
+        position: relative;
+        left: -25px;
+        color: #EEEDED;
+        margin: 0;
+    }
+    
+    .id {
+        height: 43px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 44px;
+        position: relative;
+        left: 35px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+
+/* Desktop - 2 */
+.desktop-2 {
+    position: absolute;
+    width: 1440px;
+    height: 1005px;
+    left: 0px;
+    top: 1021px;
+    background: #17170E;
+}
+
+/* Frame 5 */
+.frame5 {
+    position: absolute;
+    width: 1337px;
+    height: 861px;
+    left: 70px;
+    top: 107px;
+}
+
+/* Frame 6 */
+.discover {
+    position: absolute;
+    left: -95px;
+    top: -325px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #CF1F1F;
+}
+
+/* Frame 7 */
+
+.intro, .name-info, .ttl, .address {
+    position: absolute;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.intro {
+    width: 840px;
+    height: 171px;
+    left: -110px;
+    top: 27px;
+}
+
+.name-info {
+    width: 309px;
+    height: 55px;
+    left: -110px;
+    top: 225px;
+}
+
+.ttl {
+    width: 428px;
+    height: 48px;
+    left: -110px;
+    top: 307px;
+}
+
+.address {
+    width: 740px;
+    height: 62px;
+    left: -110px;
+    top: 396px;
+}
+
+/* Frame 8 */
+.frame8 {
+    position: absolute;
+    width: 347px;
+    height: 97px;
+    left: 450px;
+    top: 112px;
+}
+
+.about-me {
+    position: relative;
+    left: 14px;
+    top: -50px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 77px;
+    color: #E2DDDD;
+}
+
+/* icha2 1 */
+.icha2 {
+    position: absolute;
+    width: 477px;
+    height: 636px;
+    left: -650px;
+    top:-150px;
+    background: url('icha2.png') no-repeat center center/cover;
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 579px;
+    left: 0px;
+    top: 2026px;
+    background: #201F1F;
+}
+
+/* Frame 9 */
+.frame9 {
+    position: absolute;
+    width: 436px;
+    height: 170px;
+    left: 57px;
+    top: -10px;
+}
+
+.contact-me {
+    position: relative;
+    width: 545px;
+    height: 118px;
+    left: 27px;
+    top: 30px;
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    color: #CF1F1F;
+}
+
+/* Frame 10 */
+.frame10 {
+    position: absolute;
+    width: 1370px;
+    height: 321px;
+    left: 44px;
+    top: 202px;
+}
+
+.rectangle-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 368px;
+    height: 299px;
+    left: 15px;
+    top: 11px;
+    border: 5px solid #FFFFFF;
+}
+
+.rectangle-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 471px;
+    height: 299px;
+    left: 439px;
+    top: 11px;
+    border: 5px solid #FFFFFF;
+}
+
+.rectangle-3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 375px;
+    height: 299px;
+    left: 971px;
+    top: 11px;
+    border: 5px solid #FFFFFF;
+}
+
+.wa1 {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 85px;
+    top: 23px;
+    background: url('contact.pnj') no-repeat center center/cover;
+}
+
+.email {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 550px;
+    top: 20px;
+    background: url('email.png') no-repeat center center/cover;
+}
+
+.instagram {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 1062px;
+    top: 7px;
+    background: url('instagram.png') no-repeat center center/cover;
+}
+
+.contact-number, .email-address, .instagram-handle {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.contact-number {
+    width: 305px;
+    height: 45px;
+    left: 80px;
+    top: 202px;
+}
+
+.email-address {
+    width: 407px;
+    height: 45px;
+    left: 498px;
+    top: 202px;
+}
+
+.instagram-handle {
+    width: 223px;
+    height: 45px;
+    left: 1070px;
+    top: 202px;
+}
